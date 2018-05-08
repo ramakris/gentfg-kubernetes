@@ -5,7 +5,7 @@ to provisioning a 3 nodes Kubernetes cluster using `VirtualBox` and `Ubuntu
 
 ### Prerequisites
 You need the following installed to use this playground.
-- `Vagrant`, version 1.9.3 or better. Earlier versions of vagrant do not work
+- `Vagrant`, version 2.0.2 or better. Earlier versions of vagrant do not work
 with the Vagrant Ubuntu 16.04 box and network configuration.
 - `VirtualBox`, tested with Version 5.1.18 r114002
 - Internet access, this playground pulls Vagrant boxes from the Internet as well
@@ -15,7 +15,7 @@ as installs Ubuntu application packages from the Internet.
 To bring up the cluster, clone this repository to a working directory.
 
 ```
-git clone http://github.com/davidkbainbridge/k8s-playground
+git clone https://github.com/ramakris/gentfg-kubernetes.git
 ```
 
 Change into the working directory and `vagrant up`
